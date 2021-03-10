@@ -1,0 +1,32 @@
+<div class="main">
+
+<div class="content">
+
+<h1 class="h1"
+
+>First Check Points</h1>
+
+<div  class="inp">
+
+  <input  (keyup) = "maCouleur(moninput.value)"
+
+   #moninput
+
+   type="text"
+   class="form-control"
+   placeholder = "Entrer la couleur"
+   [style.background-color]="color"
+   [value]="color"
+   >
+
+</div>
+
+
+<button   (click)= "changecolor()"
+
+class="btn btn-primary btn">
+
+Couleur Initiale</button>
+</div>
+
+</div>

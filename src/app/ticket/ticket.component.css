@@ -1,0 +1,83 @@
+.main{
+  margin-left: 1.6rem;
+  margin-right: 1.5rem;
+
+}
+
+.title{
+
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+ display: flex;
+ align-items: center;
+}
+
+.in{
+  margin-top: .9rem;
+  padding: 0.7rem 3.5rem;
+  width: 25%;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 2rem;
+  box-sizing: border-box;
+
+}
+
+.content{
+  text-decoration: underline;
+  margin-top: 1rem;
+  width: 18.8rem;
+  height: 9rem;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+}
+
+.ticket{
+  margin-top: 1rem;
+  margin-bottom: 1.7rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stitre{
+  color: gray;
+}
+
+.g-titre{
+  display: flex;
+flex-direction: column;
+}
+
+.prix{
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+}
+
+.titre{
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.bas-ticket{
+  color: blue;
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+  justify-content: space-between;
+  text-decoration: underline blue;
+}
+
+.all-ticket{
+display: flex;
+justify-content: space-between;
+
+}
+
+.hr{
+  border: 0,2 solid  rgb(211, 211, 211);
+}
